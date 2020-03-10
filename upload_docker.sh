@@ -9,6 +9,7 @@ dockerpath=leokury/house-prediction-price
 
 # Step 2:  
 # Authenticate & tag
+docker login
 docker tag house-price-prediction:v1 leokury/house-prediction-price
 echo "Docker ID and Image: $dockerpath"
 
